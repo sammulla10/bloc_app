@@ -29,7 +29,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
                 desc: e['desc'],
                 price: e['price'],
                 imageurl: e['imageurl'],
-              ),
+              ),//error here TODO: solve error
             )
             .toList(),
       ),
